@@ -1,5 +1,5 @@
 
-**Mobile-first restaurant website using Sass, BEM naming and JavaScript.**
+**Frontend Mentor Challenge**
 
 Challenge by [frontendmentor.io](https://www.frontendmentor.io/) to build out a website basing on the design (images and svg icons provided). 
 

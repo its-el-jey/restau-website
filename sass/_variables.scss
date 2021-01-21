@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap');
+
+$color-beaver: #9e7f66;
+$color-cod-gray: #111111;
+$color-mirage: #17192b;
+$color-ebony-clay: #242b37;
+$color-shuttle-gray: #5c6779;
+$color-dark-gray: #4c4c4c;
+$color-white: #fff;
+$color-border: rgba(151, 151, 151, 0.15);
+$color-dark-blue-shadow: rgba(56, 66, 85, 0.5);
+$color-error: #B54949;
+
+$weight-light: 300;
+$weight-regular: 400;
+$weight-semi-bold: 600;
+$weight-bold: 700;
+
+$transition: 300ms ease-in-out;
+$card-shadow: 0 7.5rem 10rem -5rem $color-dark-blue-shadow;
+
+$bp-desktop: 1200px;
+$bp-tablet-end: 1199px;
+$bp-tablet-start: 768px;
+$bp-mobile: 767px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $color-cod-gray;
+  font-family: 'Spartan', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.screen-reader-only {
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  border: 0;
+}

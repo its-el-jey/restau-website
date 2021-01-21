@@ -4,7 +4,7 @@
 Reservation form has a simple JS validation, which:
 - after submitting shows error message when any of the input fields is empty,
 - checks if the e-mail address is formatted correctly,
-- after attempt of submission of the form, every input is being checked again on focusing out.
+- after attempt of submission of the arm, every input is being checked again on focusing out.
 
 Challenge by [frontendmentor.io](https://www.frontendmentor.io/) to build out a website basing on the design (images and svg icons provided). 
 
